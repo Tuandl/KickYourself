@@ -1,0 +1,24 @@
+.profile-content {
+    position: relative;
+    left: auto;
+    top: -45px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+.form-group label {
+    /*border: 1px solid black;*/
+    font-size: 1.5em;
+    padding-top: 5px;
+}
+
+.main {
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+.main:last-child {
+    margin-bottom: 0px;
+}

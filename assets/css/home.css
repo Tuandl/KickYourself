@@ -1,0 +1,109 @@
+header {
+    width: 100%;
+    position: relative;
+    margin: 0px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    min-height: 500px;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header img {
+    padding-top: 30px;
+}
+
+.portfolio .pop-up {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    text-align: center;
+    font-weight: 700;
+    height: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    color: white;
+    background-color: rgba(27, 11, 11, 0.7);
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 50px;
+}
+
+.portfolio img {
+    width: initial;
+    height: initial;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.portfolio .content {
+    width: 100%;
+    /*border: 1px solid black;*/
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.portfolio .pop-up p {
+    width: 70%;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.portfolio .item {
+    padding: 0px;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+section {
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2 {
+    margin: 0px;
+}
+
+section.heading {
+    min-height: 270px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+section.heading h2 {
+    font-weight: 200;
+    font-size: 4em;
+}
+
+section.heading h3 {
+    font-weight: 200;
+    font-size: 3.5em;
+}
+
+.bg-yellow {
+    background-color: #fee481;
+    color: black;
+}
+
+#btn-margin a {
+    margin: 15px;
+}
+
+.contact a {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+}
+
+.btn.btn-circle {
+    border-radius: 50%;
+}

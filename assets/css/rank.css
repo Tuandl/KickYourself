@@ -1,0 +1,10 @@
+.rank-table {
+    width: 70%;
+    margin: auto;
+    font-size: 115%;
+}
+
+.card {
+    margin-top: -10px;
+    z-index: 10;
+}
